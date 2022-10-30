@@ -12,7 +12,7 @@ $config = "server {
         index index.html index.htm;
     }
     location /redirect_me {
-        return 301 http://st-pardon.github.io/portfolio-landing-page/;
+        return 301 https://www.linkedin.com/in/ibukunoluwa-dawodu-75bb9619b//;
     }
     error_page 404 /404.html;
     location /404 {
