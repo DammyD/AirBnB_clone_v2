@@ -29,7 +29,7 @@ CONFIG="server {
 		try_files \$uri \$uri/ =404;
 	}
 	if (\$request_filename ~ redirect_me) {
-		rewrite ^ https://st-pardon.github.io/portfolio-landing-page permanent;
+		rewrite ^ https://www.linkedin.com/in/ibukunoluwa-dawodu-75bb9619b/ permanent;
 	}
 	location = /404.html {
 		root /var/www/error/;
