@@ -17,7 +17,7 @@ def cities_by_states():
     '''The states_list route.'''
     all_states = list(storage.all(State).values())
     all_states.sort(key=lambda x: x.name)
-    for states in all_states:
+    for state in all_states:
         state.cities.sort(key=lambda x: x.name)
     ctxt = {
         'states': all_states
