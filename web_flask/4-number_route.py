@@ -34,7 +34,7 @@ def python(text):
     return 'Python {}'.format(text.replace('_', ' '))
 
 
-@app.route('/number/<n>')
+@app.route('/number/<int:n>')
 def number(n):
     '''The number route'''
     return '{} is a number'.format(n)
