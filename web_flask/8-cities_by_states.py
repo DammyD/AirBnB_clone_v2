@@ -12,9 +12,9 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 
 
-@app.route('/states_list')
+@app.route('/cities_by_states')
 def cities_by_states():
-    '''The states_list route.'''
+    '''The cities_by_states route.'''
     all_states = list(storage.all(State).values())
     all_states.sort(key=lambda x: x.name)
     for state in all_states:
