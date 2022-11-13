@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Flask web application.
+'''A script that statrs a Flask web application.
 '''
 from flask import Flask, render_template
 
@@ -33,4 +33,3 @@ def flask_teardown(exc):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
-
