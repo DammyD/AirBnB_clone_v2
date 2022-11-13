@@ -31,7 +31,7 @@ def c(text):
 @app.route('/python', defaults={'text': 'is cool'})
 def python(text):
     '''The python route'''
-    return 'Python {}'.format(text.replace('_'. ' '))
+    return 'Python {}'.format(text.replace('_', ' '))
 
 
 if __name__ == '__main__':
